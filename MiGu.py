@@ -1,4 +1,4 @@
-import requests, os, asyncio, aiohttp, mail
+import requests, os, asyncio, aiohttp
 
 """
 miguMusic类可直接调用
@@ -93,9 +93,7 @@ class miguMusic:
         except Exception as fp:
             print(fp)
             print('异常请联系管理员！')
-            fp = fp.args[0]
-            send = mail.Email_163(fp)
-            send.run()
+      
 
 
 if __name__ == "__main__":
