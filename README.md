@@ -1,5 +1,6 @@
 # spider
-Welcome to study together
+No longer maintained
+
 For learning only
 
 This is a Migu music interface, you can download charging songs.
